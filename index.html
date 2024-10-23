@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherly Halim - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light neutral background */
+            color: #333; /* Darker text color for better readability */
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            font-size: 18px; /* Increased font size */
+        }
+        header {
+            background: #eaeaea; /* Light gray header */
+            color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px; /* Horizontal spacing between items */
+        }
+        nav ul li a {
+            padding: 10px 15px;
+            background: #dcdcdc; /* Light gray buttons */
+            color: #333; /* Dark text */
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px; /* Rounded corners */
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background: #c0c0c0; /* Slightly darker gray on hover */
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff; /* White content area */
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            flex: 1;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        hr {
+            border: 1px solid #dcdcdc; /* Light gray line */
+            margin: 20px 0; /* Space above and below the line */
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #eaeaea; /* Light gray footer */
+            color: #333;
+        }
+        img {
+            display: block; /* Center the image */
+            max-width: 100%; /* Make image responsive */
+            border-radius: 8px; /* Rounded corners for the image */
+            margin: 0 auto; /* Centering */
+        }
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column; /* Stack items vertically on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sherly Halim</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobby">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="UncleLIm.jpeg" alt="Placeholder Image"> <!-- Example image -->
+            <p>Hello! I'm Sherly, a passionate learner and a creative thinker. I have a keen interest in various fields, including art and social sciences. My journey has been one of exploration, where I constantly seek to expand my horizons and learn from different perspectives. I believe that each experience adds a unique layer to my understanding of the world. Welcome to my portfolio, where I share my thoughts, things i do, and the things that inspire me. I'm excited to connect with like-minded individuals and collaborate on meaningful initiatives!</p>
+            <hr>
+        </section>
+
+        <section id="hobby">
+            <h2>Hobbies</h2>
+            <p>In my free time, I enjoy engaging in various activities that stimulate my mind and creativity. From delving into philosophy to exploring economic theories, I find joy in understanding the intricacies of human behavior and society. I also love expressing myself through art, whether it's painting, writing, or digital design. These hobbies not only bring me happiness but also provide me with new insights and inspiration. I'm always on the lookout for new interests and experiences, and I'm eager to learn more about the world around me!</p>
+            <hr>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to reach out, feel free to contact me! I'm always open to new opportunities and conversations. You can find me on various social media platforms, or simply send me an email. Looking forward to hearing from you!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sherly Halim. All rights reserved.</p>
+    </footer>
+</body>
+</html>
